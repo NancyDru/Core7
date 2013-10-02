@@ -1,0 +1,447 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node { /* Node wrapper */
+}
+
+.preview .node { /* Preview of the content before submitting new or updated content */
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.node .node-title { /* Node title */
+}
+
+.node .user-picture { /* The picture of the node author */
+}
+
+.node .submitted { /* The "posted by" information */
+}
+
+.node .submitted-by { /* Submitted By module */
+  color: #bb802c;
+  font-style: italic;
+}
+
+.node .submitted-by .name {
+  font-weight: bold;
+}
+
+.node .submitted-by .title {
+  font-size: 89%;
+}
+
+.node .content { /* Node's content wrapper */
+}
+
+.node ul.links { /* Node links. See also the ul.links declaration in the pages.css. */
+}
+
+.node-promoted { /* A node that has been promoted to the front page */
+}
+
+.node-sticky { /* A sticky node (displayed before others in a list) */
+}
+
+.node-by-viewer { /* A node created by the current user */
+}
+
+.node-teaser { /* A node displayed as teaser */
+}
+
+/*
+ * All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+
+.node-page { /* Page content node */
+}
+
+.node-article { /* Article content node */
+}
+
+.node-unpublished { /* Unpublished nodes */
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished p.unpublished,
+.comment-unpublished p.unpublished { /* The word "Unpublished" displayed underneath the content. */
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.lt-ie8 .node-unpublished p.unpublished > *,
+.lt-ie8 .comment-unpublished > * {
+  position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
+
+.child-nodes-button {
+  margin: .5em 0 .5em 2em;
+}
+
+/**
+ * CAPT Stuff.
+ */
+.field-collection-item-field-managing-service,
+.field-name-field-managing-service .content .field-items,
+.field-name-field-stj-contact .field-items,
+.field-name-field-stj-contact .field-label {
+  float: left;
+}
+
+.field-name-field-user-email {
+  font-size: 89%;
+  vertical-align: bottom;
+}
+
+.field-name-field-stj-contact .field-collection-view {
+  padding: 0;
+}
+
+.field-collection-item-field-stj-contact .content .field,
+.field-name-field-managing-service .content .field,
+.field-name-field-stj-contact .field-name-field-email,
+.field-name-field-stj-contact .field-name-field-name-field {
+  float: left;
+  margin-right: 1em;
+}
+
+.group-focus-areas .field-item {
+  margin-bottom: .5em;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.node-service .field-collection-container .field-item,
+.node-service .field-collection-container {
+  margin: 0;
+}
+
+.node-tracker .field-label,
+.node-service .field-label {
+  clear: both;
+  margin: 0 1em 0 1em;
+  max-width: 22em;
+  text-indent: -1em;
+  width: 45%;
+}
+
+.node-tracker #node_t_ta_tracker_full_group_travel_costs .field-label {
+  width: 14em;
+}
+
+.node-tracker #node_t_ta_tracker_full_group_travel_costs .field-items {
+  text-align: right;
+  width: 6em;
+}
+
+.field-name-field-total-estimated-cost {
+  font-size: 110%;
+  margin-bottom: 2em;
+}
+
+.field-name-field-total-estimated-cost .field-items .field-item {
+  color: #cc3333;
+  font-weight: bold;
+}
+
+.field-name-field-consultant-breakout-total,
+.field-name-field-staff-breakout-total,
+.field-name-field-loaded-consultant-total,
+.field-name-field-loaded-staff-total {
+  margin-bottom: 1em;
+}
+
+.field-name-field-consultant-breakout-total .field-label,
+.field-name-field-staff-breakout-total .field-label,
+.field-name-field-loaded-consultant-total .field-label,
+.field-name-field-loaded-staff-total .field-label {
+  font-style: italic;
+  text-indent: 3em;
+}
+
+.field-name-field-consultant-breakout-total .field-items,
+.field-name-field-staff-breakout-total .field-items,
+.field-name-field-loaded-consultant-total .field-items,
+.field-name-field-loaded-staff-total .field-items {
+  width: 54%;
+}
+
+.field-name-field-total-estimated-cost {
+  margin-bottom: 2em !important;
+}
+
+.field-name-field-total-estimated-cost .field-label {
+  float: left;
+}
+
+.field-name-field-total-estimated-cost .field-items,
+.field-name-field-consultant-breakout-total .field-items .field-item,
+.field-name-field-staff-breakout-total .field-items .field-item,
+.field-name-field-loaded-consultant-total .field-items .field-item,
+.field-name-field-loaded-staff-total .field-items .field-item {
+  float: right;
+}
+
+.field-type-text-long.field-label-above .field-label {
+  width: auto;
+}
+
+.field-type-text-long {
+  margin: .5em 0 .5em 0;
+}
+
+.field-type-text-long .field-items {
+  margin: 0 1em 0 1em;
+}
+
+.field-name-field-target-audience .field-items {
+  margin: 0;
+}
+
+
+.node-service .field-name-field-ssi-focus .field-items,
+.node-service .field-name-field-focus-areas .field-items {
+  display: table-cell;
+  float: none;
+}
+
+.field-name-field-individual-costs .field-item.odd .field-collection-view {
+  background-color: #fff4e0;
+}
+
+.field-collection-item-field-individual-costs .content .field {
+  float: left;
+  margin: 0 .5em !important;
+  width: 31%;
+}
+
+.fieldset-legend,
+.field-collection-item-field-individual-costs .content .field-items {
+  font-size: 89%;
+}
+
+.field-collection-item-field-individual-costs .content .field-name-field-user-name-display .field-items {
+  font-size: 100%;
+}
+
+.field-collection-item-field-individual-costs .content .field-label {
+  font-size: 84%;
+}
+
+.field-collection-item-field-individual-costs .content .group-cost-breakouts .field {
+  width: 22%;
+}
+
+.field-collection-item-field-individual-costs .content .group-travel-costs .field {
+  width: 12%;
+}
+
+.field-collection-item-field-individual-costs .content .field .field-label {
+  width: 100%;
+}
+
+.field-collection-item-field-individual-costs .content fieldset {
+  clear: both;
+}
+/*
+.field-name-field-total-travel-cost .field-items .field-item {
+  border-top: 3px double #666666;
+} */
+
+.field-name-field-total-time,
+.field-name-field-total-travel-cost {
+  float: right !important;
+  text-align: right !important;
+}
+
+a.button {
+	-moz-box-shadow: inset 3px 2px 1px 0px #f29c93;
+	-webkit-appearance: none !important;
+	-webkit-box-shadow: inset 3px 2px 1px 0px #f29c93;
+	box-shadow: inset 3px 2px 1px 0px #f29c93;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #8a180e) );
+	background: -moz-linear-gradient( center top, #fe1a00 5%, #8a180e 100% );
+	filter:p rogid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#8a180e');
+	background-color: #fe1a00;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 1px solid #d83526;
+	display: inline-block;
+	color: #ffffff;
+  font-size: 92%;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 0px 0px #b23e35;
+}
+
+a.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8a180e), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #8a180e 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8a180e', endColorstr='#fe1a00');
+	background-color:#8a180e;
+}
+
+a.button:active {
+	position:relative;
+	top:1px;
+}
+
+.view-id-service_plans th {
+  font-size: 84%;
+  padding-right: 3px;
+}
+
+td.views-field-field-status {
+  font-size: 89%;
+}
+
+table.views-table {
+  width: 100%;
+}
+
+.node-service .field-collection-container {
+  border: 0 none;
+}
+
+.node-tracker .field-collection-view,
+.node-service .field-collection-view {
+  margin: 0;
+  padding: 0;
+}
+
+.node .field {
+  margin-bottom: .5em;
+}
+
+.node .field-type-text-long p {
+  margin: .5em 1em;
+}
+
+.node .field-type-field-collection .field {
+  margin-bottom: 0;
+}
+
+.field-type-field-collection {
+  width: 100%;
+}
+
+.field-type-field-collection .field-items {
+  /*margin: 0 1em .5em 1em;*/
+}
+
+.field-type-field-collection table {
+  /*margin: 0 1em .5em 1em;*/
+  width: 100%;
+}
+
+.field-type-field-collection table th {
+  font-size: 89%;
+}
+
+.field-type-field-collection table td {
+  padding-right: 1em;
+}
+
+.field-type-field-collection table tr {
+  background-color: #ffffff;
+}
+
+.field-type-field-collection table th {
+  background-color: #ffffbb;
+  font-size: 95%;
+}
+
+#workflow-tab-form form {
+  border: 1px solid #999999;
+}
+
+.workflow-current-state.ready-for-preliminary-review {
+  color: #009900;
+}
+
+.workflow-current-state.creation,
+.workflow-current-state.revisions-needed {
+  color: #ffa500;
+}
+
+.node-form table {
+  width: auto;
+}
+
+.node-form fieldset.filter-wrapper {
+  font-size: 75%;
+  padding: 0;
+}
+
+.node-form fieldset.filter-help {
+  padding: 0;
+}
+
+.node-form fieldset.filter-help p {
+  padding: 0;
+}
+
+.node-form .form-field-type-taxonomy-term-reference select,
+.node-form .form-item-og-group-ref-und-0-default select,
+.node-form .form-field-name-field-s-t-j select {
+  width: auto;
+}
+
+.node-form textarea {
+  width: 100%;
+}
+
+.node-form .form-radios input,
+.node-form .form-type-checkbox input {
+  margin-left: 2em;
+}
+
+.node-form .form-radios label,
+.node-form .form-type-checkbox label {
+  margin-left: .5em;
+}
+
+fieldset {
+  border-radius: 10px; /* CSS3 */
+  padding: .5em 0;
+
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+
+}
+
+fieldset legend {
+  background-color: #dddddd;
+  width: 100%;
+}
+
+fieldset .fieldset-wrapper {
+  padding: 0 .5em;
+}
+
+.field-name-field-ssi-focus .field-items .field-item,
+.field-name-field-tta-method .field-items .field-item,
+.field-name-field-focus-areas .field-items .field-item {
+  display: list-item;
+}
+
+.node .lineage-item-level-0 { /* Hierarchical Select parent term */
+  display: inline !important;
+  font-family: Georgia,"Times New Roman","DejaVu Serif",serif;
+}

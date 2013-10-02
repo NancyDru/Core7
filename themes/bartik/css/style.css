@@ -10,7 +10,6 @@ body {
   border: 0;
   outline: 0;
 }
-
 a:link,
 a:visited {
   text-decoration: none;
@@ -76,6 +75,8 @@ pre samp,
 pre var {
   padding: 0;
 }
+big {font-size: large;}
+small {font-size: small;}
 .description code {
   font-size: 1em;
 }
@@ -107,7 +108,8 @@ body,
 #site-slogan,
 .ui-widget,
 .comment-form label {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  font-family: Arial, Helvetica, Verdana, Tahoma, Geneva, sans-serif;
 }
 #header,
 #footer-wrapper,
@@ -1648,33 +1650,4 @@ div.admin-panel .description {
 }
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
-}
-
-/**
- * Nancy's CDP Stuff
- */
-.view-flag-bookmarks .views-row {
-  border: 1px inset #cd2d2d;
-  float: left;
-  margin: 1em 1% 0 0;
-  min-height: 29em;
-  padding: 3px;
-  width: 31%;
-}
-
-.view-flag-bookmarks .views-field-title {
-  /*font-family: "Brush Script MT", script;*/
-  font-size: 150%;
-}
-
-.view-flag-bookmarks .views-field-name,
-.view-flag-bookmarks .views-field-created {
-  font-family: sans-serif;
-  font-size: 89%;
-}
-
-.view-flag-bookmarks a.unflag-action {
-  float: right;
-  font-family: sans-serif;
-  font-size: 89%;
 }

@@ -1,0 +1,5 @@
+name = Module Weights
+description = Allows module weights to be viewed and edited.
+dependencies[] = util
+package = Util
+core = 6.x

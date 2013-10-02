@@ -1,0 +1,5 @@
+name = Type Defaults
+description = Sets default options for all content types.
+dependencies[] = util
+package = Util
+core = 6.x

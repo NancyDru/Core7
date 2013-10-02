@@ -1,0 +1,314 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+.block { /* Block wrapper */
+  margin: .75em 0 .75em 0;
+}
+
+.block .block-content {
+  padding: 3px 6px 6px 6px;
+}
+
+#content .block .block-inner,
+.region-sidebar-second .block .block-inner {
+  border: 1px solid #ffffff;
+  border-radius: 9px;
+}
+
+.region-sidebar-first .block .block-inner .block-content {
+  color: #ffffff;
+}
+
+.region-sidebar-second .block .block-inner .block-content {
+  font-size: .89em;
+  padding: 6px;
+}
+
+.region-sidebar-second .block .block-inner .block-content a:hover {
+  text-decoration: underline;
+}
+
+.region-sidebar-second .block .block-inner .block-content a {
+  color: #8a180e;
+  text-decoration: none;
+}
+
+.block .block-inner h2.block-title,
+.region-sidebar-second .block .block-inner h2.block-title {
+  border-radius: 9px 9px 0 0;
+  color: #ffffff;
+  font-family: 'ClarendonFS', Georgia, serif;
+  font-size: 1.0em;
+  padding: 10px 15px 5px;
+}
+
+.block .view-content table {
+  margin: 0;
+}
+
+.block.charcoal .block-inner h2.block-title,
+.region-sidebar-second .block.charcoal .block-inner h2.block-title,
+.region-sidebar-second .block .block-inner h2.block-title {
+  background-color: #888888;    /* charcoal */
+}
+
+.block.charcoal .block-inner,
+.region-sidebar-second .block.charcoal .block-inner,
+.region-sidebar-second .block .block-inner {
+  background-color: #dddddd;
+}
+
+.block.chocolate .block-inner h2.block-title,
+.region-sidebar-second .block.chocolate .block-inner h2.block-title,
+.region-sidebar-second .block .block-inner h2.block-title {
+  background-color: #8a180e;    /* Chocolate */
+}
+
+.block.chocolate .block-inner,
+.region-sidebar-second .block.chocolate .block-inner,
+.region-sidebar-second .block .block-inner {
+  background-color: #c8a686;
+}
+
+.region-sidebar-second .block.blue .block-inner h2.block-title {
+  background-color: #577786;    /* Blue */
+}
+
+.region-sidebar-second .block.blue .block-inner {
+  background-color: #abbbc2;
+}
+
+.region-sidebar-second .block.red .block-inner h2.block-title {
+  background-color: #8a180e;    /* Red */
+}
+
+.region-sidebar-second .block.red .block-inner {
+  background-color: #d0a39f;
+}
+
+.region-sidebar-second .block.mustard .block-inner h2.block-title {
+  background-color: #d1ac3a;    /* Mustard */
+}
+
+.region-sidebar-second .block.mustard .block-inner {
+  background-color: #e8d59c;
+}
+
+.block.first { /* The first block in the region */
+}
+
+.block.last { /* The last block in the region */
+}
+
+.block.odd { /* Zebra striping for each block in the region */
+}
+
+.block.even { /* Zebra striping for each block in the region */
+}
+
+h2.block-title { /* Block title */
+}
+
+#block-aggregator-category-1 { /* Block for the latest news items in the first category */
+}
+
+#block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
+}
+
+#block-block-1 {
+}
+
+#block-blog-recent { /* "Recent blog posts" block */
+}
+
+#block-book-navigation { /* "Book navigation" block for the current book's table of contents */
+}
+
+#block-comment-recent { /* "Recent comments" block */
+}
+
+#block-forum-active { /* "Active forum topics" block */
+}
+
+#block-forum-new { /* "New forum topics" block */
+}
+
+#block-locale-language { /* Language switcher block */
+}
+
+#block-menu-menu-NAME { /* Custom menu block */
+}
+
+#block-node-recent { /* "Recent content" block */
+}
+
+#block-node-syndicate { /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
+}
+
+#block-poll-recent { /* "Most recent poll" block */
+}
+
+#block-profile-author-information { /* "Author information" block for the profile of the page's author */
+}
+
+#block-search-form { /* "Search form" block */
+}
+
+#block-shortcut-shortcuts { /* "Shortcuts" block */
+}
+
+#block-statistics-popular { /* "Popular content" block */
+}
+
+#block-system-main-menu { /* "Main menu" block */
+}
+
+#block-system-management { /* "Management" block for Drupal management menu */
+}
+
+#block-system-navigation { /* "Navigation" block for Drupal navigation menu */
+}
+
+#block-system-user-menu { /* "User menu" block for Drupal user menu */
+}
+
+#block-system-help { /* "System help" block */
+}
+
+#block-system-main { /* "Main page content" block */
+}
+
+#block-system-powered-by { /* "Powered by Drupal" block */
+}
+
+#block-user-login { /* "User login form" block */
+}
+
+#block-user-login #edit-actions {
+  text-align: center;
+}
+
+#block-user-login .item-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#block-user-login .item-list ul li a {
+  color: #ffffff;
+  font-size: 89%;
+}
+
+#block-user-new { /* "Who's new" block for a list of the newest users */
+}
+
+#block-user-online { /* "Who's online" block for a list of the online users */
+}
+
+/**
+ * SAMHSA Footer block.
+ */
+#footer {
+  font-size: 70%;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#fourPoints{
+  background-color: #8A180E;
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+}
+
+#fourPoints ul li {
+  padding: 3px 3em;
+}
+
+#fourPoints ul li.first {
+  padding-left: 0;
+}
+
+#fourPoints ul li.last {
+  padding-right: 0;
+}
+
+ul#widgets-bottom ul,
+ul#widgets-bottom {
+  margin: 0;
+  padding: 0 0 0 3px;
+}
+
+li.widgetLarge,
+li.widgetSmall {
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0 20px 20px 0;
+  width: 140px;
+}
+
+li.widgetSmall a {
+  color: #ffffff;
+  text-decoration: none;
+  width: 100%;
+}
+
+li.widgetSmall li {
+  border-bottom: 1px dotted #ffffff;
+  line-height: 110%;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0 2px 2px 0;
+}
+
+.footerSoftware {
+  line-height: 120%;
+}
+
+#footerRightSide {
+  float: right;
+}
+
+#footerBottom {
+  clear: both;
+}
+
+li.connect {
+  float: left;
+  list-style: none outside none;
+  width: 210px;
+}
+
+.connectTitle {
+  color: #ffffff;
+  display: block;
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.connectIcons {
+}
+
+a.footerSoftware {
+}
+
+a.footerSoftware:hover {
+  color: #ffff00 !important;
+}
+
+#footerBottom {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+#missionStatement {
+  clear: both;
+  font-size: 1.3em;
+  font-style: italic;
+}
