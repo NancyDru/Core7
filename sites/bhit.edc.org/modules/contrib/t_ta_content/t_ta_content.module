@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the T/TA Content feature.
- */
-
-include_once 't_ta_content.features.inc';

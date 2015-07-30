@@ -1,4 +1,0 @@
-name = TTA Custom
-description = Custom code for the T/TA Tracker site.
-core = 7.x
-package = Custom
