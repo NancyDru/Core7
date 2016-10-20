@@ -1,2 +1,2 @@
-# Ignore configuration files that may contain sensitive information.
+# Ignore sites directory entirely - each will be its own repo.
 sites/*
